@@ -12,40 +12,40 @@
     <main>
         <div class="top-container">
             <div class="display-container">
-                <p>0</p>
+                <p id="display-result"></p>
             </div>
         </div>
         <div class="bottom-container">
             <div class="number-container">
                 <table>
                         <tr>
-                            <td><button class="fixed-color">AC</button></td>
-                            <td><button>%</button></td>
-                            <td><button>x</button></td>
-                            <td><button>÷</button></td>
+                            <td><button class="fixed-color" id="clear-all-result">AC</button></td>
+                            <td><button id="number">%</button></td>
+                            <td><button id="number">*</button></td>
+                            <td><button id="number">/</button></td>
                         </tr>
                         <tr>
-                            <td><button>7</button></td>
-                            <td><button>8</button></td>
-                            <td><button>9</button></td>
-                            <td><button>-</button></td>
+                            <td><button id="number">7</button></td>
+                            <td><button id="number">8</button></td>
+                            <td><button id="number">9</button></td>
+                            <td><button id="number">-</button></td>
                         </tr>
                         <tr>
-                            <td><button>4</button></td>
-                            <td><button>5</button></td>
-                            <td><button>6</button></td>
-                            <td><button>+</button></td>
+                            <td><button id="number">4</button></td>
+                            <td><button id="number">5</button></td>
+                            <td><button id="number">6</button></td>
+                            <td><button id="number">+</button></td>
                         </tr>
                         <tr>
-                            <td><button>1</button></td>
-                            <td><button>2</button></td>
-                            <td><button>3</button></td>
-                            <td rowspan="2"><button class="fixed-color">=</button></td>
+                            <td><button id="number">1</button></td>
+                            <td><button id="number">2</button></td>
+                            <td><button id="number">3</button></td>
+                            <td rowspan="2"><button class="fixed-color" id="number">=</button></td>
                         </tr>
                         <tr>
-                            <td><button>0</button></td>
-                            <td><button>,</button></td>
-                            <td><button><i class="ph-bold ph-backspace"></i></button></td>
+                            <td><button id="number">0</button></td>
+                            <td><button id="number">.</button></td>
+                            <td><button id="back-result"><i class="ph-bold ph-backspace"></i></button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -58,5 +58,6 @@
             <p>Made with 💜 by <a href="https://www.linkedin.com/in/eriralfbarros/" target="_blank">Eriralf.</a></p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
